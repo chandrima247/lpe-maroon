@@ -2247,7 +2247,6 @@ const Nav = ({ current, cartCount, onNav, onCart, onLoyalty, account, onAccount 
       <div className="container nav-inner">
         <button className="nav-brand" onClick={() => onNav("landing")} aria-label="La Patisserie home">
           <img src="https://patexpressug.com/cdn/shop/files/La_Patisserie_Logo_NO_BG.png?height=126&v=1764577680" alt="La Patisserie Express" />
-          <span className="nav-tagline">Great food.<br/>Premium coffee.</span>
         </button>
         <div className="nav-links">
           <button className={current === "loyalty-dash" ? "active" : ""} onClick={onLoyalty}>Loyalty</button>
@@ -2591,7 +2590,7 @@ const HeroFullBleed = ({ onOrder, onLoyalty }) => (
     <div className="container">
       <div className="hero-inner">
         <div className="hero-eyebrow">Est · Kampala · 2018</div>
-        <h1>Great food.<br/><em>Seriously good</em> coffee.</h1>
+        <h1>Great food.<br/><em>Premium</em> coffee.</h1>
         <p className="lead-h">Handcrafted drinks, pastries baked at dawn, and hearty meals — ready for pickup or delivery from twenty outlets across town.</p>
         <div className="hero-ctas">
           <button className="btn lg" onClick={onOrder}>Start your order</button>
@@ -2609,7 +2608,7 @@ const HeroEditorial = ({ onOrder, onLoyalty }) => (
         <div className="editorial-grid">
           <div>
             <div className="hero-eyebrow">A Patisserie · Express</div>
-            <h1>Great food.<br/><em>Seriously good</em><br/>coffee.</h1>
+            <h1>Great food.<br/><em>Premium</em><br/>coffee.</h1>
             <p className="lead-h">A Parisian patisserie with a Kampala soul. Single-origin coffee, pastries baked at dawn, and dishes that earn the table they're set on.</p>
             <div className="hero-ctas">
               <button className="btn lg" onClick={onOrder}>Start your order</button>
@@ -2632,7 +2631,7 @@ const HeroSplit = ({ onOrder, onLoyalty }) => (
     <div className="hero-split-grid">
       <div className="hero-side-text">
         <div className="hero-eyebrow" style={{ color: "var(--gold-300)" }}>The Patisserie · Kampala</div>
-        <h1 style={{ color: "#fff" }}>Great food.<br/><em style={{ color: "var(--gold-200)" }}>Seriously good</em><br/>coffee.</h1>
+        <h1 style={{ color: "#fff" }}>Great food.<br/><em style={{ color: "var(--gold-200)" }}>Premium</em><br/>coffee.</h1>
         <p className="lead-h" style={{ color: "rgba(255,255,255,0.72)" }}>Twenty outlets, one obsession. Order ahead for pickup in five minutes — or have it brought to your door.</p>
         <div className="hero-ctas">
           <button className="btn lg" onClick={onOrder}>Start your order</button>
